@@ -12,6 +12,11 @@ public class Main extends JavaPlugin {
 	public void onEnable()
 	{
 		getServer().addRecipe(bedrock);
-		//Stuff
+	}
+	
+	/* I'm lazy, OK? */
+	private void x(Object x)
+	{
+		System.out.println(x);
 	}
 }
